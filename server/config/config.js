@@ -4,7 +4,7 @@ require("dotenv").config();
     development: {
       username: "root",
       password: "12345678",
-      database: "remembertrip_development",
+      database: "JMT_development",
       host: "127.0.0.1",
       dialect: "mysql",
       timezone: "+09:00",
@@ -17,7 +17,7 @@ require("dotenv").config();
     test: {
       username: "admin",
       password: "12345678",
-      database: "remembertrip_test",
+      database: "JMT_test",
       host: "127.0.0.1",
       dialect: "mysql",
       timezone: "+09:00",
@@ -30,7 +30,7 @@ require("dotenv").config();
     production: {
       username: "admin",
       password: "12345678",
-      database: "remembertrip_production",
+      database: "JMT_production",
       host: "127.0.0.1",
       timezone: "+09:00",
       dialectOptions: {
